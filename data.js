@@ -56,6 +56,14 @@ const terms = [
         category: "주식"
     },
     {
+        id: "supply_demand",
+        term: "수요와 공급",
+        image: "assets/supply_demand.png",
+        definition: "시장에서 가격이 결정되는 가장 기본 원리예요! '사고 싶은 마음(수요)'과 '팔고 싶은 양(공급)'이 줄다리기를 하며 딱 맞는 가격을 찾아가는 과정이죠.",
+        example: "딸기가 제철이라 공급이 많아지면 가격이 내려가고, 모두가 딸기를 찾아서 수요가 많아지면 가격이 올라가요.",
+        category: "미시경제"
+    },
+    {
         id: "opportunity_cost",
         term: "기회비용",
         image: "assets/opportunity_cost.png",
