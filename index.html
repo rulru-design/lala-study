@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>말랑말랑 경제학 | 초보를 위한 쉬운 경제 용어</title>
+    <meta name="description" content="경제 문맹 탈출! 어려운 경제 용어를 쉽고 말랑말랑하게 배워보세요.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>말랑말랑 경제학 🎈</h1>
+            <p>어려운 경제, 이제 친구처럼 친해져 봐요!</p>
+        </header>
+
+        <main>
+            <div class="search-container">
+                <input type="text" id="searchInput" class="search-input"
+                    placeholder="어떤 용어가 궁금하신가요? (예: 인플레이션, GDP...)">
+            </div>
+
+            <div id="termsGrid" class="terms-grid">
+                <!-- Terms will be inserted here by JavaScript -->
+            </div>
+        </main>
+
+        <!-- Terms Detail Modal -->
+        <div id="termModal" class="modal-overlay">
+            <div class="modal-content">
+                <button class="close-btn" id="closeModal">&times;</button>
+                <img id="modalImage" class="modal-header-image" src="" alt="">
+                <div class="modal-body-content">
+                    <h2 id="modalTitle" class="modal-term-title"></h2>
+                    <span id="modalCategory" class="modal-term-category"></span>
+
+                    <div class="modal-body">
+                        <p class="section-label">정의</p>
+                        <p id="modalDefinition" class="modal-definition"></p>
+
+                        <p class="section-label">예시</p>
+                        <p id="modalExample" class="modal-example"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
