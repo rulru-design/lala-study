@@ -16,6 +16,14 @@ const terms = [
         category: "기초 상식"
     },
     {
+        id: "deflation",
+        term: "디플레이션",
+        image: "assets/deflation.png",
+        definition: "인플레이션과 거꾸로 물가가 계속 떨어지는 현상이에요. 물건값이 싸지니 좋을 것 같지만, 사람들이 '내일 더 싸지겠지?' 하고 소비를 미루면서 경제가 얼어붙을 수 있어요.",
+        example: "기업들이 물건을 못 팔아서 월급이 깎이거나 일자리가 줄어들면 디플레이션의 위험 신호예요.",
+        category: "기초 상식"
+    },
+    {
         id: "interest_rate",
         term: "금리 (이자율)",
         image: "assets/interest_rate.png",
